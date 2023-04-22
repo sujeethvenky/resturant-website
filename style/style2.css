@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assest/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: fill;
+}
+
+
+/* nav bar  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* this will tell the give top and bottom 0 value and left and rigth value as 60px */
+    padding: 0 60px;  
+    margin-top: 55px;  
+}
+.list a {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffc233;
+    text-decoration: none;
+}
+.list ul li{
+    list-style: none;
+}
+.logo,.list-item {
+   cursor: pointer;
+}
+.list ul{
+    display: flex;
+    align-items: center; 
+    /* height: 15vh; */
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.button-small{
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor:pointer;
+}
+
+/* hero part --------------------------------------------*/
+/* ----------------------------------------------------- */
+.hero{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    max-width: 1154px;
+    /* making text using text align feature */
+    text-align: center;
+    margin-top: 119px;
+    margin: 0 auto;
+}
+.hero-heading{
+    color: #ffc233;
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 60px;
+    margin-top: 10%;
+    font-weight: bold;
+
+
+}
+.big-button{
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor:pointer;
+    margin-top: 30px;
+    line-height: 15px;
+    margin-left: 40%;
+
+    
+}
+ .buttom{
+    position: absolute;
+     bottom: 20px;
+     right: 40px;
+}
+
+buttom img {
+    width: 150px;
+}
